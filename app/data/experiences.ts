@@ -2,7 +2,7 @@ const experiences = [
   {
     company: "OpenOnion",
     role: "Software Engineer Intern",
-    year: "Sep 2024 - Jan 2024",
+    year: "Sep 2024 - Jan 2025",
     logo: "./logos/openonion.webp",
     size: "w-[40px] h-[40px]",
     description: [
