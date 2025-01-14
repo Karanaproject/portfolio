@@ -97,7 +97,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1-2fhLRVm7PRXmo3olZ729KfNv1H7Jjse/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YrQZ6FtlcsfWGfxCRjym1iVBd4BCJ4kH/view?usp=sharing"
               target="_blank"
               passHref
               className="hidden xs:block"
@@ -116,7 +116,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1-2fhLRVm7PRXmo3olZ729KfNv1H7Jjse/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YrQZ6FtlcsfWGfxCRjym1iVBd4BCJ4kH/view?usp=sharing"
               target="_blank"
               passHref
               className="xs:hidden"

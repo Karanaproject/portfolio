@@ -2,11 +2,11 @@ const experiences = [
   {
     company: "OpenOnion",
     role: "Software Engineer Intern",
-    year: "Sep 2024 - Dec 2024",
+    year: "Sep 2024 - Jan 2024",
     logo: "./logos/openonion.webp",
     size: "w-[40px] h-[40px]",
     description: [
-      "Maintained and debugged company’s main product (a startup), a community-focused AI chatbot built with Next.js for frontend, FastAPI for backend, and Llama 2 for large language model (LLM) development",
+      "Maintained and debugged company’s main product (a startup), a community-focused AI chatbot built with Next.js for frontend, FastAPI for backend, MongoDB for the database, and Mistral AI for large language model (LLM) development",
     ]
   },
   {
