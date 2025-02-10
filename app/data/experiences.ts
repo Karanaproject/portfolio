@@ -1,5 +1,13 @@
 const experiences = [
   {
+    company: "Woolworths Group",
+    role: "Frontend Developer",
+    year: "Jan 2025 - Present",
+    logo: "./logos/woolworths.png",
+    size: "w-[40px] h-[40px]",
+    description: ["Contracted by Woolworths Group to develop and implement a new project"],
+  },
+  {
     company: "OpenOnion",
     role: "Software Engineer Intern",
     year: "Sep 2024 - Jan 2025",
