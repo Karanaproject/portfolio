@@ -3,9 +3,9 @@ const experiences = [
     company: "Woolworths Group",
     role: "Frontend Developer",
     year: "Jan 2025 - Present",
-    logo: "./logos/woolworths.png",
+    logo: "./logos/woolworths.webp",
     size: "w-[40px] h-[40px]",
-    description: ["Contracted by Woolworths Group to develop and implement a new project"],
+    description: ["Contracted by Woolworths Group to work on a new project with React for frontend"],
   },
   {
     company: "OpenOnion",
@@ -18,7 +18,7 @@ const experiences = [
     ]
   },
   {
-    company: "Cloud NC CO., LTD.",
+    company: "Cloud NC",
     role: "Software Engineer Intern",
     year: "Sep 2023 - Feb 2024",
     logo: "./logos/cloudnc.webp",
