@@ -53,7 +53,7 @@ const ContactSection = () => {
                   </div>
 
                   <Link
-                    href="https://www.linkedin.com/in/photkosee/"
+                    href="https://www.linkedin.com/in/irwangeryr/"
                     target="_blank"
                     className="w-full"
                     passHref
