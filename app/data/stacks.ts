@@ -1,95 +1,95 @@
 const stacks = [
   {
-    skill: "Most Comfortable",
+    skill: "Core Competencies",
     tools: [
       {
-        name: "React",
-        icon: "reactjs",
+        name: "Route-to-Market Strategy",
+        icon: "fas fa-route",
       },
       {
-        name: "Next.js",
-        icon: "nextjs2",
+        name: "Distributor Management",
+        icon: "fas fa-building",
       },
       {
-        name: "HTML",
-        icon: "html5",
+        name: "Key Account Management",
+        icon: "fas fa-user-tie",
       },
       {
-        name: "CSS",
-        icon: "css3",
+        name: "Multi-Channel Sales",
+        icon: "fas fa-store",
       },
       {
-        name: "TailwindCSS",
-        icon: "tailwindcss",
+        name: "Territory Planning",
+        icon: "fas fa-map",
       },
       {
-        name: "Redux Toolkit",
-        icon: "redux",
+        name: "Sales Forecasting",
+        icon: "fas fa-chart-line",
       },
       {
-        name: "Zustand",
-        icon: "",
+        name: "Promotional Planning",
+        icon: "fas fa-bullhorn",
       },
       {
-        name: "Node.js",
-        icon: "nodejs",
+        name: "Sales Negotiation",
+        icon: "fas fa-handshake",
       },
       {
-        name: "TypeScript",
-        icon: "typescript",
+        name: "Accounts Receivable Management",
+        icon: "fas fa-file-invoice-dollar",
+      },
+      {
+        name: "Sales Team Coaching",
+        icon: "fas fa-users-cog",
       },
     ],
   },
   {
-    skill: "Experienced",
+    skill: "Additional Skills",
     tools: [
       {
-        name: "React Native",
-        icon: "reactjs",
+        name: "Microsoft Excel",
+        icon: "fas fa-file-excel",
       },
       {
-        name: "Golang",
-        icon: "go",
+        name: "PowerPoint",
+        icon: "fas fa-file-powerpoint",
       },
       {
-        name: "C",
-        icon: "",
+        name: "Word",
+        icon: "fas fa-file-word",
       },
       {
-        name: "Java",
-        icon: "java",
+        name: "Power BI",
+        icon: "fas fa-chart-bar",
       },
       {
-        name: "Python",
-        icon: "python",
+        name: "SAP",
+        icon: "fas fa-database",
       },
       {
-        name: "NestJS",
-        icon: "nestjs",
+        name: "Oracle",
+        icon: "fas fa-database",
       },
       {
-        name: "MongoDB",
-        icon: "mongodb",
+        name: "Google My Maps",
+        icon: "fas fa-map",
       },
       {
-        name: "PostgreSQL",
-        icon: "postgresql",
+        name: "AppSheet",
+        icon: "fas fa-mobile-alt",
       },
       {
-        name: "Jest",
-        icon: "jest",
+        name: "Canva",
+        icon: "fas fa-paint-brush",
       },
       {
-        name: "Google Cloud Platform",
-        icon: "gcloud",
+        name: "CorelDRAW",
+        icon: "fas fa-paint-brush",
       },
       {
-        name: "Amazon Web Services",
-        icon: "aws",
-      },
-      {
-        name: "Docker",
-        icon: "docker",
+        name: "Data Analysis",
+        icon: "fas fa-chart-pie",
       },
     ],
   },
