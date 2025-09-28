@@ -20,20 +20,21 @@ const AboutMeBox = () => {
         <CardContent>
           <div className="text-center flex flex-col gap-y-3 max-w-[700px] pt-5">
             <div>
-              My name is Phot Koseekrainiramon. Recent graduate from the
-              University of New South Wales who loves{" "}
-              <span className="font-bold">solving problems</span> and{" "}
-              <span className="font-bold">building things</span>, especially in
-              web development.
-            </div>
-            <div>
-              I enjoy creating user-friendly applications and working with both{" "}
-              <span className="font-bold">front-end</span> and{" "}
-              <span className="font-bold">back-end</span> technologies. I love
-              learning new things by expanding my experience through various
-              side projects, hackathon events, and internships throughout my
-              academic journey.
-            </div>
+  My name is Irwan Gery Renaldi, a <span className="font-bold">Sales Leader</span> 
+  with strong experience in the 
+  <span className="font-bold">FMCG</span> and 
+  <span className="font-bold">Consumer Health</span> industries. 
+  I specialize in <span className="font-bold">direct & indirect distribution</span>, 
+  <span className="font-bold">data analysis</span>, and 
+  <span className="font-bold">field execution</span>.
+</div>
+<div>
+  I am passionate about driving <span className="font-bold">sales growth</span>, 
+  optimizing <span className="font-bold">territory planning</span>, 
+  and building <span className="font-bold">strategic partnerships</span>. 
+  My achievements include boosting division sales, leading multi-channel teams, 
+  and collaborating with institutions to deliver impactful results.
+</div>
           </div>
         </CardContent>
       </Card>
