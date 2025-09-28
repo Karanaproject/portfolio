@@ -11,13 +11,9 @@ import ProjectCard from "@/app/components/ProjectCard";
 const filterByCategory = (projects: Project[], category: string) => {
   return projects.filter((project: Project) => {
     if (category === "highlight") return project.show;
-    if (category === "others") return project.category === "others";
-    if (category === "backend")
-      return project.category === "backend" || project.category === "fullstack";
-    if (category === "frontend")
-      return (
-        project.category === "frontend" || project.category === "fullstack"
-      );
+    if (category === "distribution") return project.category === "distribution";
+    if (category === "sales") return project.category === "sales";
+    if (category === "optimization") return project.category === "optimization";
     if (category === "all") return true;
   });
 };
@@ -27,9 +23,9 @@ const ProjectTab = () => {
   const [numShown, setNumShown] = useState(6);
   const numAll = projects.length;
   const numHighlight = filterByCategory(projects, "highlight").length;
-  const numFrontend = filterByCategory(projects, "frontend").length;
-  const numBackend = filterByCategory(projects, "backend").length;
-  const numOthers = filterByCategory(projects, "others").length;
+  const numDistribution = filterByCategory(projects, "distribution").length;
+  const numSales = filterByCategory(projects, "sales").length;
+  const numOptimization = filterByCategory(projects, "optimization").length;
   const numCurrProject = filterByCategory(projects, category).length;
   const filteredProjects = filterByCategory(projects, category).slice(
     0,
@@ -68,35 +64,35 @@ const ProjectTab = () => {
 
         <TabsTrigger
           className="tab data-[state=active]:bg-primary data-[state=active]:text-white"
-          value="frontend"
+          value="distribution"
           onClick={() => {
             setNumShown(6);
-            setCategory("frontend");
+            setCategory("distribution");
           }}
         >
-          Frontend&nbsp;&nbsp;({numFrontend})
+          Distribution&nbsp;&nbsp;({numDistribution})
         </TabsTrigger>
 
         <TabsTrigger
           className="tab data-[state=active]:bg-primary data-[state=active]:text-white"
-          value="backend"
+          value="sales"
           onClick={() => {
             setNumShown(6);
-            setCategory("backend");
+            setCategory("sales");
           }}
         >
-          Backend&nbsp;&nbsp;({numBackend})
+          Sales&nbsp;&nbsp;({numSales})
         </TabsTrigger>
 
         <TabsTrigger
           className="tab data-[state=active]:bg-primary data-[state=active]:text-white"
-          value="others"
+          value="optimization"
           onClick={() => {
             setNumShown(6);
-            setCategory("others");
+            setCategory("optimization");
           }}
         >
-          Others&nbsp;&nbsp;({numOthers})
+          Optimization&nbsp;&nbsp;({numOptimization})
         </TabsTrigger>
       </TabsList>
 
@@ -114,7 +110,6 @@ const ProjectTab = () => {
                   name={project.name}
                   description={project.description}
                   link={project.link}
-                  github={project.github}
                   stack={project.stack}
                   date={project.date}
                   index={index % 6}
