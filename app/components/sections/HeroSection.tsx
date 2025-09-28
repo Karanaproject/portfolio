@@ -66,7 +66,7 @@ const HeroSection = () => {
               Hi there,
               <div className="flex gap-x-2 items-center">
                 my name is
-                <span className="text-primary">Phot</span>
+                <span className="text-primary">Gery</span>
               </div>
             </motion.h1>
             <motion.p
@@ -74,7 +74,7 @@ const HeroSection = () => {
               className="my-3 text-left text-muted-foreground font-light
               text-sm md:text-[16px] md:leading-[24px]"
             >
-              I love to build things that can help people.
+              Professional Sales Leader in FMCG & Consumer Health,experienced in distribution strategy, data analysis,and field execution.
             </motion.p>
           </div>
 
@@ -97,7 +97,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1YrQZ6FtlcsfWGfxCRjym1iVBd4BCJ4kH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1slNSUd0P5YXEn-mQdv356gVIjWSUMOjn/view?usp=drive_link"
               target="_blank"
               passHref
               className="hidden xs:block"
@@ -116,7 +116,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1YrQZ6FtlcsfWGfxCRjym1iVBd4BCJ4kH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1slNSUd0P5YXEn-mQdv356gVIjWSUMOjn/view?usp=drive_link"
               target="_blank"
               passHref
               className="xs:hidden"
