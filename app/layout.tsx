@@ -12,9 +12,8 @@ import { MobileNavProvider } from "@/app/MobileNavContext";
 const inter = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Phot Koseekrainiramon | Portfolio",
-  description:
-    "A website showcasing personal projects of Phot Koseekrainiramon",
+  title: "Irwan Gery Renaldi | Portfolio",
+  description: "Sales & Distribution Leader with expertise in FMCG & Consumer Health",
 };
 
 export default function RootLayout({
@@ -29,9 +28,9 @@ export default function RootLayout({
           name="google-site-verification"
           content="CnlwpaPq5AkFDd-p3szQDoH4TKkdW43R_fRCcNoLF1Q"
         />
-        <link rel="author" href="https://github.com/photkosee" />
-        <meta name="author" content="Phot Koseekrainiramon" />
-        <meta name="creator" content="Phot Koseekrainiramon" />
+        <link rel="author" href="https://github.com/Karanaproject" />
+        <meta name="author" content="Irwan Gery Renaldi" />
+        <meta name="creator" content="Irwan Gery Renaldi" />
       </head>
 
       <body className={inter.className}>
