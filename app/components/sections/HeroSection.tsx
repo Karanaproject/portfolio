@@ -56,7 +56,7 @@ const HeroSection = () => {
               variants={childVariants}
             >
               <span className="hidden md:block w-5 h-[2px] bg-primary rounded-lg" />
-              Software Engineer
+              Professional Sales Leader
             </motion.div>
 
             <motion.h1
