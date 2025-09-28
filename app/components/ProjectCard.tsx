@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { motion } from "framer-motion";
-import { RiGithubFill } from "react-icons/ri";
+import { RiWhatsappFill } from "react-icons/ri";
 import StackIcon from "tech-stack-icons";
 
 import { Project } from "@/app/types";
@@ -17,7 +17,6 @@ interface ProjectCardProps {
   name: string;
   description: string;
   link?: string;
-  github: string;
   stack: Project["stack"];
   date: string;
   index: number;
@@ -33,7 +32,6 @@ const ProjectCard = ({
   name,
   description,
   link,
-  github,
   stack,
   date,
   index,
@@ -53,7 +51,7 @@ const ProjectCard = ({
     >
       <Card className="max-w-[320px] relative h-full flex flex-col justify-between">
         <Link
-          href={link ? link : github}
+          href={link ? link : "#"}
           target="_blank"
           className="relative w-full h-[200px] flex items-center justify-center
           dark:bg-secondary/40 bg-[#fef5f5] overflow-hidden group"
@@ -90,16 +88,6 @@ const ProjectCard = ({
 
         <div className="flex flex-col items-center w-full gap-1 p-2">
           <div className="flex w-full gap-1">
-            <Link href={github} passHref target="_blank" className="flex-1">
-              <Button
-                variant="outline"
-                className="gap-1 text-sm px-3 w-full"
-                size="sm"
-              >
-                More Details
-              </Button>
-            </Link>
-
             {link && (
               <Link href={link} passHref target="_blank" className="flex-1">
                 <Button
@@ -108,14 +96,14 @@ const ProjectCard = ({
                   size="sm"
                 >
                   <SquareArrowOutUpRight size={18} />
-                  Live Demo
+                  View Details
                 </Button>
               </Link>
             )}
           </div>
 
           <Link
-            href={github.split("?")[0]}
+            href="https://wa.me/62895379765158?text=Hello%2C%20I%27m%20interested%20in%20your%20project%3A%20${encodeURIComponent(name)}"
             passHref
             target="_blank"
             className="w-full"
@@ -125,8 +113,8 @@ const ProjectCard = ({
               className="gap-1 text-sm px-3 w-full"
               size="sm"
             >
-              <RiGithubFill size={18} />
-              Source Code
+              <RiWhatsappFill size={18} />
+              Discuss Project
             </Button>
           </Link>
         </div>
