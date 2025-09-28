@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaMedium } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
-import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa6";
 
 import "@/app/styles/dino.css";
 import useAnimateOnView from "@/app/hooks/useAnimateOnView";
@@ -49,20 +49,22 @@ const ConnectBox = () => {
           <CardContent className="h-full flex flex-col justify-between overflow-hidden">
             <div className="flex flex-col gap-1 sm:gap-y-1 mx-auto w-full pt-5">
               <div className="flex flex-row lg:flex-col gap-1">
+                {/* WhatsApp */}
                 <Link
-                  href="https://github.com/photkosee"
+                  href="https://wa.me/62895379765158"
                   target="_blank"
                   className="w-full"
                   passHref
                 >
                   <Button variant="outline" className="gap-x-2 w-full">
-                    <RiGithubFill className="w-5 h-5" />
-                    GitHub
+                    <FaWhatsapp className="w-5 h-5 text-green-600 dark:text-white" />
+                    WhatsApp
                   </Button>
                 </Link>
 
+                {/* LinkedIn */}
                 <Link
-                  href="https://www.linkedin.com/in/photkosee/"
+                  href="https://www.linkedin.com/in/irwangeryr/"
                   target="_blank"
                   className="w-full"
                   passHref
@@ -74,25 +76,15 @@ const ConnectBox = () => {
                 </Link>
               </div>
 
-              <Link
-                href="https://photkosee.medium.com/"
-                target="_blank"
-                className="w-full"
-                passHref
-              >
-                <Button variant="outline" className="gap-x-2 w-full">
-                  <FaMedium />
-                  Medium Blog
-                </Button>
-              </Link>
-
+              {/* Email */}
               <div className="flex items-center justify-center gap-x-1 pt-2">
                 <BiLogoGmail className="w-5 h-5 text-red-700 dark:text-white" />
                 <div>Email:</div>
-                <p>phot.kosee@gmail.com</p>
+                <p>irwangery@gmail.com</p>
               </div>
             </div>
 
+            {/* Dino Animation */}
             <div className="relative h-full flex items-end w-full min-h-[100px]">
               <div className="relative animate-mini-infinite-scroll sm:animate-infinite-scroll w-full">
                 <div
