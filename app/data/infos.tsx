@@ -16,7 +16,7 @@ const infos = [
   {
     icon: <GraduationCap size={18} />,
     description: "Bachelor in Agricultural Science",
-    description2: "@Thammasat Gadjah Mada University",
+    description2: "@Gadjah Mada University",
   },
 ];
 
