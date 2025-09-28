@@ -41,7 +41,7 @@ const ContactSection = () => {
                     Contact Me
                   </h1>
                   <p className="text-sm text-muted-foreground">
-                    Phot Koseekrainiramon
+                    Irwan Gery Renaldi
                   </p>
                 </div>
 
@@ -49,7 +49,7 @@ const ContactSection = () => {
                   <div className="flex items-center justify-center gap-x-2">
                     <BiLogoGmail className="w-5 h-5 text-red-700 dark:text-white" />
                     <div className="select-none">Email:</div>
-                    <p>phot.kosee@gmail.com</p>
+                    <p>irwangery@gmail.com</p>
                   </div>
 
                   <Link
