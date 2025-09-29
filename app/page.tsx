@@ -2,24 +2,24 @@ import HeroSection from "@/app/components/sections/HeroSection";
 import ProjectSection from "@/app/components/sections/ProjectSection";
 import AboutSection from "@/app/components/sections/AboutSection";
 import ContactSection from "@/app/components/sections/ContactSection";
-import ExperienceSection from "@/app/components/sections/ExperienceSection";
+import ExperienceSection from "@/app/components/sections/ExperienceSection"; // ✅ Sudah ditambahkan
 
 export default function Home() {
   return (
     <main className="min-h-screen relative">
-      {/* Hero/Banner utama */}
+      {/* 1. Hero/Banner utama */}
       <HeroSection />
       
-      {/* Tentang saya */}
+      {/* 2. Tentang saya */}
       <AboutSection />
       
-      {/* Ringkasan pengalaman kerja */}
-      <ExperienceSection />
+      {/* 3. Ringkasan pengalaman kerja */}
+      <ExperienceSection /> // ✅ Section experience sudah ditambahkan
       
-      {/* Proyek-proyek */}
+      {/* 4. Proyek-proyek */}
       <ProjectSection />
       
-      {/* Kontak */}
+      {/* 5. Kontak */}
       <ContactSection />
     </main>
   );
