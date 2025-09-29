@@ -3,7 +3,7 @@ const experiences = [
     company: "PT. FKS Pangan Nusantara",
     role: "Sales Commander",
     year: "May 2024 - Dec 2024",
-    logo: "./logos/fks.webp",
+    logo: "./logos/FKS.webp",
     size: "w-[40px] h-[40px]",
     location: "Surabaya, Indonesia",
     description: [
@@ -17,7 +17,7 @@ const experiences = [
     company: "PT. FKS Pangan Nusantara",
     role: "Territory Sales Supervisor",
     year: "Aug 2023 - May 2024",
-    logo: "./logos/fks.webp",
+    logo: "./logos/FKS.webp",
     size: "w-[40px] h-[40px]",
     location: "Mojokerto, Indonesia",
     description: [
@@ -30,7 +30,7 @@ const experiences = [
     company: "PT. Marga Nusantara Jaya",
     role: "Area Sales Manager",
     year: "May 2022 - Jul 2023",
-    logo: "./logos/marga.webp",
+    logo: "./logos/Marga.webp",
     size: "w-[40px] h-[40px]",
     location: "Multiple Regions (Lampung, Jambi, South Sulawesi)",
     description: [
@@ -46,7 +46,7 @@ const experiences = [
     company: "PT. Marga Nusantara Jaya",
     role: "Management Trainee",
     year: "Jan 2021 - May 2022",
-    logo: "./logos/marga.webp",
+    logo: "./logos/Marga.webp",
     size: "w-[40px] h-[40px]",
     location: "Multiple Regions (South Sulawesi, Central Sulawesi, South Kalimantan)",
     description: [
