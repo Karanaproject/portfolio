@@ -2,48 +2,48 @@ import { Project } from "@/app/types";
 
 const projects: Project[] = [
   {
-    image: "./covers/project-cover.webp",
-    category: "achievement",
-    name: "Boosted Food Division Sales",
-    description:
-      "Increased Food Division sales from IDR 15M/year to IDR 25–30M/month through strategic territory reallocation and sales execution.",
-    stack: ["FMCG", "Sales Strategy", "Territory Planning"],
-    date: "2024",
-    show: true,
-    github: "", // Tambahkan properti github
-  },
-  {
-    image: "./covers/task-cover.webp",
+    image: "./covers/Distribution.webp",
     category: "achievement",
     name: "Distribution Optimization",
     description:
-      "Redesigned route planning across GT, MT, and Horeka channels to improve efficiency and reduce cost-to-serve.",
-    stack: ["Distribution", "Route Optimization", "Channel Management"],
+      "Redesigned route planning using Google My Maps, improving sales visit effectiveness by +20% and achieving 100% AR collection via invoice audits.",
+    stack: ["Route Planning", "Sales Operations", "Invoice Management"],
+    date: "2024",
+    show: true,
+    github: "https://github.com/Karanaproject/portfolio",
+  },
+  {
+    image: "./covers/b2b.webp",
+    category: "achievement",
+    name: "Satellite Office Development",
+    description:
+      "Built operational foundation for new satellite offices, supported onboarding, and secured B2B industrial canteen partnerships for Bola Deli products.",
+    stack: ["Operations", "B2B Partnerships", "Onboarding"],
+    date: "2024",
+    show: true,
+    github: "https://github.com/Karanaproject/portfolio",
+  },
+  {
+    image: "./covers/dm.webp",
+    category: "achievement",
+    name: "Rapid Performance Improvement",
+    description:
+      "As Acting Direct Manager, boosted snacking sales to IDR 1B/month and achieved national best NPD activation.",
+    stack: ["Sales Management", "Performance Improvement", "NPD Activation"],
     date: "2023",
     show: true,
-    github: "", // Tambahkan properti github
+    github: "https://github.com/Karanaproject/portfolio",
   },
   {
-    image: "./covers/flexbox-cover.webp",
+    image: "./covers/food.webp",
     category: "achievement",
-    name: "B2B Collaboration with BPOM & KPU",
+    name: "Sales Transformation",
     description:
-      "Built institutional collaborations for Holisticare Ester C procurement, ensuring compliance and impactful partnerships.",
-    stack: ["B2B", "Stakeholder Management"],
-    date: "2022",
+      "Migrated sales system to mass-market strategy, stabilizing logistics with outbound tracking, and doubling product sales.",
+    stack: ["Sales Strategy", "Logistics", "Market Expansion"],
+    date: "2021-2022",
     show: true,
-    github: "", // Tambahkan properti github
-  },
-  {
-    image: "./covers/blackpeach-cover.webp",
-    category: "achievement",
-    name: "Sales Operations Leadership",
-    description:
-      "Led sales team across multiple channels, aligning field execution with company growth strategy and driving operational excellence.",
-    stack: ["Leadership", "Sales Operations", "Team Management"],
-    date: "2021",
-    show: true,
-    github: "", // Tambahkan properti github
+    github: "https://github.com/Karanaproject/portfolio",
   },
 ];
 
