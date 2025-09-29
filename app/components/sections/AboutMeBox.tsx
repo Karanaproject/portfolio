@@ -23,7 +23,7 @@ const AboutMeBox = () => {
             {/* Foto Profil */}
             <div className="flex-shrink-0">
               <Image
-                src="/covers/profile-photo.png" // Menggunakan format PNG
+                src="/covers/profile-photo.png"
                 alt="Irwan Gery Renaldi"
                 width={200}
                 height={200}
