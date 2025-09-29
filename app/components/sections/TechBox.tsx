@@ -20,7 +20,7 @@ const TechBox = () => {
         animate={animation}
         className="font-bold text-2xl md:text-3xl text-center"
       >
-        Skill
+        Skill & Competencies
       </motion.h1>
 
       <motion.div ref={ref2} initial="hidden" animate={animation2}>
