@@ -1,110 +1,93 @@
-export default function ExperiencePage() {
+import Link from "next/link";
+
+export default function ExperienceSection() {
   return (
-    <div className="container mx-auto py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-          Work Experience
-        </h1>
-        
-        <div className="space-y-12">
-          {/* Experience 1 */}
-          <div className="border-l-4 border-primary pl-6 py-2">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-              <h2 className="text-2xl font-semibold">Sales Manager</h2>
-              <span className="text-base text-muted-foreground">2020 - Present</span>
+    <section className="py-20 bg-muted/30">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Professional Experience
+          </h2>
+          
+          <div className="space-y-8">
+            {/* Experience 1 - PT. FKS Pangan Nusantara */}
+            <div className="border-l-4 border-primary pl-6 py-1">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <h3 className="text-xl font-semibold">PT. FKS Pangan Nusantara</h3>
+                <span className="text-sm text-muted-foreground">Aug 2023 - Dec 2024</span>
+              </div>
+              <p className="text-primary font-medium mb-2">Sales Commander & Territory Sales Supervisor</p>
+              <p className="text-muted-foreground mb-3">Surabaya, Mojokerto, Malang</p>
+              
+              <ul className="space-y-2 mb-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Achieved +15% QoQ sales growth and ranked #2 nationally</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Expanded 80-100 new GT outlets and grew Bola Deli sales by +90% YoY</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Implemented demand forecasting maintaining 14-day buffer stock</span>
+                </li>
+              </ul>
+              
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Team Leadership</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Sales Growth</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Supply Chain</span>
+              </div>
             </div>
-            <p className="text-lg text-primary font-medium mb-3">PT. Consumer Goods Indonesia</p>
-            <ul className="space-y-3 mb-4">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Led team of 15 sales representatives across 3 regions</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Achieved 150% revenue growth (IDR 15B to IDR 37.5B) through strategic territory expansion</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Implemented new sales training program resulting in 40% increase in team productivity</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Developed key performance indicators that improved sales forecasting accuracy by 25%</span>
-              </li>
-            </ul>
-            <div className="flex flex-wrap gap-2">
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Leadership</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Sales Strategy</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Team Management</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Revenue Growth</span>
+            
+            {/* Experience 2 - PT. Marga Nusantara Jaya */}
+            <div className="border-l-4 border-primary pl-6 py-1">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <h3 className="text-xl font-semibold">PT. Marga Nusantara Jaya</h3>
+                <span className="text-sm text-muted-foreground">Jan 2021 - Jul 2023</span>
+              </div>
+              <p className="text-primary font-medium mb-2">Area Sales Manager & Management Trainee</p>
+              <p className="text-muted-foreground mb-3">Multiple Provinces</p>
+              
+              <ul className="space-y-2 mb-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Achieved #1 National KPI Productivity ranking</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Improved distribution efficiency by 20-25%</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Led 15+ New Product Launches with 90%+ GT penetration</span>
+                </li>
+              </ul>
+              
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Sales Strategy</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Distribution</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Product Launches</span>
+              </div>
             </div>
           </div>
           
-          {/* Experience 2 */}
-          <div className="border-l-4 border-primary pl-6 py-2">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-              <h2 className="text-2xl font-semibold">Senior Sales Executive</h2>
-              <span className="text-base text-muted-foreground">2018 - 2020</span>
-            </div>
-            <p className="text-lg text-primary font-medium mb-3">PT. Food & Beverage Corp</p>
-            <ul className="space-y-3 mb-4">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Developed distribution network covering 15 major cities in Java</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Increased market share from 15% to 30% in modern trade channel</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Negotiated partnerships with 50+ new retail outlets</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Reduced distribution costs by 20% through route optimization</span>
-              </li>
-            </ul>
-            <div className="flex flex-wrap gap-2">
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Distribution</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Market Expansion</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Partnership</span>
-            </div>
-          </div>
-          
-          {/* Experience 3 */}
-          <div className="border-l-4 border-primary pl-6 py-2">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-              <h2 className="text-2xl font-semibold">Sales Supervisor</h2>
-              <span className="text-base text-muted-foreground">2016 - 2018</span>
-            </div>
-            <p className="text-lg text-primary font-medium mb-3">PT. Retail Solutions</p>
-            <ul className="space-y-3 mb-4">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Managed key accounts in modern trade channel with 95% client retention rate</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Increased sales volume by 35% through promotional activities</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Trained 20+ junior sales staff on product knowledge and sales techniques</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Received "Best Supervisor" award in 2017 for outstanding performance</span>
-              </li>
-            </ul>
-            <div className="flex flex-wrap gap-2">
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Account Management</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Retail</span>
-              <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Training</span>
-            </div>
+          {/* Link to full experience page */}
+          <div className="text-center mt-12">
+            <Link 
+              href="/experience" 
+              className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+            >
+              View complete work experience
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
+            </Link>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
