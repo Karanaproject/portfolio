@@ -10,6 +10,7 @@ const projects: Project[] = [
     stack: ["FMCG", "Sales Strategy", "Territory Planning"],
     date: "2024",
     show: true,
+    github: "", // Tambahkan properti github
   },
   {
     image: "./covers/task-cover.webp",
@@ -20,6 +21,7 @@ const projects: Project[] = [
     stack: ["Distribution", "Route Optimization", "Channel Management"],
     date: "2023",
     show: true,
+    github: "", // Tambahkan properti github
   },
   {
     image: "./covers/flexbox-cover.webp",
@@ -30,6 +32,7 @@ const projects: Project[] = [
     stack: ["B2B", "Stakeholder Management"],
     date: "2022",
     show: true,
+    github: "", // Tambahkan properti github
   },
   {
     image: "./covers/blackpeach-cover.webp",
@@ -40,6 +43,7 @@ const projects: Project[] = [
     stack: ["Leadership", "Sales Operations", "Team Management"],
     date: "2021",
     show: true,
+    github: "", // Tambahkan properti github
   },
 ];
 
