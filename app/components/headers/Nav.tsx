@@ -17,8 +17,8 @@ const links = [
     name: "projects",
   },
   {
-    path: "https://photkosee.medium.com/",
-    name: "blog",
+    path: "/experience", // Ganti dari blog ke experience
+    name: "experience", // Ganti nama
   },
   {
     path: "/#contact",
@@ -57,7 +57,7 @@ const Nav = ({
           className={`capitalize ${linkStyles} flex relative`}
           href={link.path}
           key={index}
-          target={link.name === "blog" ? "_blank" : ""}
+          // Hapus target blank karena sekarang halaman internal
           onClick={closeMobileNav}
           aria-label={`Link to ${link.name} page`}
         >
