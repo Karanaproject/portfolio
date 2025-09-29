@@ -16,10 +16,7 @@ const links = [
     path: "/projects",
     name: "projects",
   },
-  {
-    path: "/experience", // Ganti dari blog ke experience
-    name: "experience", // Ganti nama
-  },
+  // Hapus item experience
   {
     path: "/#contact",
     name: "contact",
@@ -57,7 +54,6 @@ const Nav = ({
           className={`capitalize ${linkStyles} flex relative`}
           href={link.path}
           key={index}
-          // Hapus target blank karena sekarang halaman internal
           onClick={closeMobileNav}
           aria-label={`Link to ${link.name} page`}
         >
