@@ -3,7 +3,7 @@ import { Project } from "@/app/types";
 const projects: Project[] = [
   {
     image: "./covers/Distribution.webp",
-    category: "achievement",
+    category: "Distribution",
     name: "Distribution Optimization",
     description:
       "Redesigned route planning using Google My Maps, improving sales visit effectiveness by +20% and achieving 100% AR collection via invoice audits.",
@@ -14,7 +14,7 @@ const projects: Project[] = [
   },
   {
     image: "./covers/b2b.webp",
-    category: "achievement",
+    category: "Distribution",
     name: "Satellite Office Development",
     description:
       "Built operational foundation for new satellite offices, supported onboarding, and secured B2B industrial canteen partnerships for Bola Deli products.",
@@ -25,7 +25,7 @@ const projects: Project[] = [
   },
   {
     image: "./covers/dm.webp",
-    category: "achievement",
+    category: "Optimization",
     name: "Rapid Performance Improvement",
     description:
       "As Acting Direct Manager, boosted snacking sales to IDR 1B/month and achieved national best NPD activation.",
@@ -36,7 +36,7 @@ const projects: Project[] = [
   },
   {
     image: "./covers/food.webp",
-    category: "achievement",
+    category: "Sales",
     name: "Sales Transformation",
     description:
       "Migrated sales system to mass-market strategy, stabilizing logistics with outbound tracking, and doubling product sales.",
