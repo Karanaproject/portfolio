@@ -21,13 +21,18 @@ const AboutMeBox = () => {
         <CardContent>
           <div className="flex flex-col md:flex-row items-center gap-8 max-w-[700px] pt-5">
             {/* Foto Profil */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 relative">
               <Image
                 src="/covers/profile-photo.png"
                 alt="Irwan Gery Renaldi"
-                width={200}
-                height={200}
-                className="rounded-full object-cover border-4 border-primary"
+                width={500}  // Sesuaikan dengan ukuran asli
+                height={500} // Sesuaikan dengan ukuran asli
+                className="object-cover object-top" // Fokus ke bagian atas foto
+                style={{ 
+                  width: '250px',       // Tampilan di layar
+                  height: '350px',     // Tampilan di layar (lebih tinggi untuk menampilkan badan)
+                  marginBottom: '-40px' // Menyatu dengan box
+                }}
               />
             </div>
             
@@ -36,11 +41,11 @@ const AboutMeBox = () => {
               <div>
                 My name is Irwan Gery Renaldi, a <span className="font-bold">Sales Leader</span> 
                 with strong experience in the 
-                <span className="font-bold">FMCG</span> and 
-                <span className="font-bold">Consumer Health</span> industries. 
-                I specialize in <span className="font-bold">direct & indirect distribution</span>, 
+                <span className="font-bold"> FMCG</span> and 
+                <span className="font-bold"> Consumer Health </span> industries. 
+                I specialize in <span className="font-bold"> direct & indirect distribution </span>, 
                 <span className="font-bold">data analysis</span>, and 
-                <span className="font-bold">field execution</span>.
+                <span className="font-bold"> field execution </span>.
               </div>
               <div>
                 I am passionate about driving <span className="font-bold">sales growth</span>, 
