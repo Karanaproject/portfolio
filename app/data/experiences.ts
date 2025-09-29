@@ -30,7 +30,7 @@ const experiences = [
     company: "PT. Marga Nusantara Jaya",
     role: "Area Sales Manager",
     year: "May 2022 - Jul 2023",
-    logo: "./logos/Marga.webp",
+    logo: "./logos/logo mnj.webp",
     size: "w-[40px] h-[40px]",
     location: "Multiple Regions (Lampung, Jambi, South Sulawesi)",
     description: [
@@ -46,7 +46,7 @@ const experiences = [
     company: "PT. Marga Nusantara Jaya",
     role: "Management Trainee",
     year: "Jan 2021 - May 2022",
-    logo: "./logos/Marga.webp",
+    logo: "./logos/logo.mnj",
     size: "w-[40px] h-[40px]",
     location: "Multiple Regions (South Sulawesi, Central Sulawesi, South Kalimantan)",
     description: [
