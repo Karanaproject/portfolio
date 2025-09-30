@@ -25,14 +25,15 @@ const AboutMeBox = () => {
               <Image
                 src="/covers/profile-photo.png"
                 alt="Irwan Gery Renaldi"
-                width={500}  // Sesuaikan dengan ukuran asli
-                height={500} // Sesuaikan dengan ukuran asli
-                className="object-cover object-top" // Fokus ke bagian atas foto
+                width={375}  // Ukuran asli gambar
+                height={375} // Ukuran asli gambar
+                className="object-cover object-top rounded-lg shadow-md" // Fokus ke bagian atas foto dengan rounded corner dan shadow
                 style={{ 
-                  width: '250px',       // Tampilan di layar
-                  height: '350px',     // Tampilan di layar (lebih tinggi untuk menampilkan badan)
-                  marginBottom: '-40px' // Menyatu dengan box
+                  width: '250px',       // Tampilan di desktop
+                  height: '250px',     // Tampilan di desktop (persegi)
                 }}
+                // Tampilan responsive untuk mobile
+                sizes="(max-width: 768px) 200px, 250px"
               />
             </div>
             
