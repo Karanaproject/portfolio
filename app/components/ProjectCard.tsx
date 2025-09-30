@@ -103,7 +103,7 @@ const ProjectCard = ({
           </div>
 
           <Link
-            href="https://wa.me/62895379765158?text=Hello%2C%20I%27m%20interested%20in%20your%20project%3A%20${encodeURIComponent(name)}"
+            href={`https://wa.me/62895379765158?text=Hello%2C%20I%27m%20interested%20in%20your%20project%3A%20${encodeURIComponent(name)}`}
             passHref
             target="_blank"
             className="w-full"
