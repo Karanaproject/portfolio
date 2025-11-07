@@ -97,7 +97,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1slNSUd0P5YXEn-mQdv356gVIjWSUMOjn/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1MXV4vtuBI0WVhWSsQ50-dvXgJqwj1auB/view?usp=drive_link"
               target="_blank"
               passHref
               className="hidden xs:block"
